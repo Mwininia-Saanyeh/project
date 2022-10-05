@@ -1,4 +1,11 @@
-import React from 'react'
+import React from 'react';
+import NJA from '../utils/NJA.jpg';
+import  uds from '../utils/uds.jpg';
+import wapoly from '../utils/wapoly.jpg';
+import tumumnursing from '../utils/tumunursing.jpg';
+import stfrancis from '../utils/stfrancis.jpg';
+import NandonSnr from '../utils/NandonSnr.png';
+import wasec from '../utils/wasec.jpg'
 
 function School() {
   return (
@@ -9,42 +16,47 @@ function School() {
 
       
         <div className='card'>
-        <h2>restaurants available</h2>
-        <img src={eatry} alt =""/>
-        <p>Click the button below  to see more eatries available</p>
-        <button><Link to='/eatry'>view more</Link></button>
+        <h2>NJA College Of Education</h2>
+        <img src={NJA} alt =""/>
         </div>
        
 
         <div className='card'>
-        <h2>hospitals available</h2>
-        <img src={hospital} alt =""/>
-        <p>click to see more hospitals available</p>
-        <button>view more</button>
+        <h2>UBIDS Adminstration</h2>
+        <img src={uds} alt =""/>
         </div>
 
         <div className='card'>
-        <h2>hotels available</h2>
-        <img src={Hotel} alt =""/>
-        <button>view more</button>
+        <h2>Wa Polytechnic</h2>
+        <img src={wapoly} alt =""/>
         </div>
 
         <div className='card'>
-        <h2>commercial properties available</h2>
-        <img src={commercialptoperty} alt =""/>
-        <button>view more</button>
+        <h2>Nursing Training College Tumu</h2>
+        <img src={tumumnursing} alt =""/>
         </div>
 
-        <div className='card'>
-        <h2>schools available</h2>
-        <img src={school} alt =""/>
-        <button>view more</button>
-        </div>
+        
         </div>
         
         
-        <div className='headphones'>
-          
+        <div className='secondrow'>
+        <div className='card'>
+        <h2>ST Francis Girls Senior High School</h2>
+        <img src={stfrancis} alt =""/>
+        </div>
+       
+
+        <div className='card'>
+        <h2>Nandon Senior High School</h2>
+        <img src={NandonSnr} alt =""/>
+        </div>
+
+        <div className='card'>
+        <h2>Wa Secondary Senior High school</h2>
+        <img src={wasec} alt =""/>
+        </div>
+
 
         </div>
         <div className='drives'>
@@ -56,7 +68,7 @@ function School() {
     
     </div>
 
-    </div>
+  
   )
 }
 

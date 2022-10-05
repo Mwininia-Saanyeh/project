@@ -50,21 +50,12 @@ function Home() {
         <div className='card'>
         <h2>schools available</h2>
         <img src={school} alt =""/>
-        <button>view more</button>
+        <button><Link to='/school'>view more</Link></button>
         </div>
         </div>
         
         
-        <div className='headphones'>
-          
-
-        </div>
-        <div className='drives'>
-
-        </div>
-        <div className='cases'>
-            
-        </div>
+       
     
     </div>
       </div>
