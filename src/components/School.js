@@ -6,6 +6,9 @@ import tumumnursing from '../utils/tumunursing.jpg';
 import stfrancis from '../utils/stfrancis.jpg';
 import NandonSnr from '../utils/NandonSnr.png';
 import wasec from '../utils/wasec.jpg'
+import daanibu from '../utils/daanibu.jpg';
+import tendercare from '../utils/tendercare.jpg';
+
 
 function School() {
   return (
@@ -59,10 +62,18 @@ function School() {
 
 
         </div>
-        <div className='drives'>
-
+        <div className='thirdrow'>
+        <div className='card'>
+        <h2>Dan Ibu Internationl School</h2>
+        <img src={daanibu} alt =""/>
         </div>
-        <div className='cases'>
+       
+
+        <div className='card'>
+        <h2>Tender Care International School</h2>
+        <img src={tendercare} alt =""/>
+        </div>
+
             
         </div>
     

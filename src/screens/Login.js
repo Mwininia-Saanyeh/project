@@ -49,9 +49,10 @@ function Login() {
         </button>
         <div>
           I don't have an account
-          <Link to="/register" className="nav-link">
+         <button> <Link to="/register" className="nav-link">
             Register
           </Link>
+          </button>
         </div>
       </div>
     </form>

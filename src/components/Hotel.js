@@ -1,4 +1,9 @@
 import React from 'react'
+import royalcosyhillshotel from '../utils/royalcosyhillshotel.jpg';
+import delagio from '../utils/delagio.jpg';
+import nuoyong from '../utils/nuoyong.jpg';
+
+
 
 function Hotel() {
   return (
@@ -10,25 +15,21 @@ function Hotel() {
 
       
 <div className='card'>
-<h2>NJA College Of Education</h2>
-<img src={NJA} alt =""/>
+<h2>Royal Cosy Hill Hotel</h2>
+<img src={royalcosyhillshotel} alt =""/>
 </div>
 
 
 <div className='card'>
-<h2>UBIDS Adminstration</h2>
-<img src={uds} alt =""/>
+<h2>Delagio Hotel</h2>
+<img src={delagio} alt =""/>
 </div>
 
 <div className='card'>
-<h2>Wa Polytechnic</h2>
-<img src={wapoly} alt =""/>
+<h2>Nuoyong Empire Hotel</h2>
+<img src={nuoyong} alt =""/>
 </div>
 
-<div className='card'>
-<h2>Nursing Training College Tumu</h2>
-<img src={tumumnursing} alt =""/>
-</div>
     </div>
   )
 }
